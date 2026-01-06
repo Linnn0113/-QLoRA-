@@ -1,0 +1,17 @@
+torch==2.4.0
+torchvision==0.19.0
+torchaudio==2.4.0
+unsloth[colab-new] @ git+https://ghfast.top/https://github.com/unslothai/unsloth.git
+bitsandbytes
+peft
+transformers>=4.41.2
+accelerate>=0.30.1
+trl>=0.8.6
+# llama-factory>=0.8.3
+datasets>=2.19.1
+scipy
+numpy
+pandas
+streamlit
+openai
+matplotlib
