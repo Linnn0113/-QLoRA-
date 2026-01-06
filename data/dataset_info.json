@@ -1,0 +1,100 @@
+{
+  "medical-o1-reasoning-SFT": {
+    "file_name": "medical_o1_sft_Chinese.json",
+    "columns": {
+      "prompt": "Question",
+      "query": "",
+      "response": "Response"
+    }
+  },
+  "identity": {
+    "file_name": "identity.json"
+  },
+  "alpaca_en_demo": {
+    "file_name": "alpaca_en_demo.json"
+  },
+  "alpaca_zh_demo": {
+    "file_name": "alpaca_zh_demo.json"
+  },
+  "glaive_toolcall_en_demo": {
+    "file_name": "glaive_toolcall_en_demo.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    }
+  },
+  "glaive_toolcall_zh_demo": {
+    "file_name": "glaive_toolcall_zh_demo.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    }
+  },
+  "mllm_demo": {
+    "file_name": "mllm_demo.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "mllm_audio_demo": {
+    "file_name": "mllm_audio_demo.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "audios": "audios"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "mllm_video_demo": {
+    "file_name": "mllm_video_demo.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "videos": "videos"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "mllm_video_audio_demo": {
+    "file_name": "mllm_video_audio_demo.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "videos": "videos",
+      "audios": "audios"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "openo1_sft": {
+    "hf_hub_url": "llamafactory/OpenO1-SFT",
+    "ms_hub_url": "llamafactory/OpenO1-SFT",
+    "columns": {
+      "prompt": "prompt",
+      "response": "response"
+    }
+  }
+}
