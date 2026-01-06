@@ -122,10 +122,6 @@ CUDA\_VISIBLE\_DEVICES=0 llamafactory-cli train \\
 | Perplexity (PPL) | 4.31 | 困惑度显著降低，对医疗术语的预测更精准。 |  
 | Training Time | \~11h | 单卡 2080 Ti 高效完成。 |
 
-### **训练曲线图**
-
-*(请在 results/ 目录下查看详细大图)*
-
 ## **🩺 推理与演示 (Inference & Demo)**
 
 训练完成后，可以使用 Streamlit 启动带有思维链展示的 Web 界面：
